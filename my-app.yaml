@@ -19,3 +19,5 @@ spec:
       - image: chakilams3/github-jenkins-kubernetes:${BUILD_NUMBER}
         imagePullPolicy: Always
         name: myweb
+        ports:
+          - containerPort: 8080
